@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zuul
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:10010
+#      discovery:
+#        enabled: true
+#        service-id: config-server

@@ -1,0 +1,15 @@
+server:
+  port: 8090
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,routes
+#zuul:
+#  routes:
+#    beego:
+#      path: /beego/**
+#      url: http://localhost:8080
+#    webgo:
+#      path: /webgo/**
+#      url: http://localhost:9090

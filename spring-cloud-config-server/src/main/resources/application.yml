@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://125.71.30.140:18080/lb/config.git
+          search-paths: dir
+          username: lb
+          password: lb123123123
+      label: master
+      profile: dev
+server:
+  port: 10010
